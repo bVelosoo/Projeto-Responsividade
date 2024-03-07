@@ -60,7 +60,7 @@ button:hover {
 }
 @media (min-width: 1000px) {
   body {
-    background: url(./accets/Background.png);
+    background: url(./assets/Background.png);
   }
   main {
     display: flex;
