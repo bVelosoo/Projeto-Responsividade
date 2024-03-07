@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Source Serif Pro";
+  font-size: 1.6rem;
+  padding: 5.4rem 3.7rem;
+}
+main {
+  max-width: 320px;
+  margin: auto;
+  color: #a54328;
+}
+h1 {
+  font-size: 2.8rem;
+}
+.intro img {
+  margin: 4.6rem auto;
+}
+.intro p {
+  margin-bottom: 5.2rem;
+}
+.preparo h1 {
+  margin-bottom: 3.6rem;
+}
+.preparo p {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+ul {
+  margin-bottom: 2.5rem;
+}
+ol {
+  margin-bottom: 5rem;
+}
+ul,
+ol {
+  letter-spacing: -1px;
+  padding-left: 2.2rem;
+}
+li::marker {
+  font-size: 1.4rem;
+}
+button {
+  background-color: #a54328;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #b45c43;
+}
+@media (min-width: 1000px) {
+  body {
+    background: url(./accets/Background.png);
+  }
+  main {
+    display: flex;
+    max-width: 115rem;
+    margin: 9.5rem auto;
+  }
+  .intro {
+    max-width: 43.5rem;
+    margin-right: 19rem;
+  }
+}
