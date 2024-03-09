@@ -16,6 +16,9 @@ main {
   margin: auto;
   color: #a54328;
 }
+img{
+  width: 100%;
+}
 h1 {
   font-size: 2.8rem;
 }
